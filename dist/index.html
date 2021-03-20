@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pop bubbles with your mouse!">
+  <meta name="author" content="JstFlip">
+  <title>Bubble Popper</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      overflow: hidden;
+      position: relative;
+      font-family: 'Montserrat', sans-serif;
+    }
+    div{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #333;
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    div p{
+      padding: 2rem 3rem;
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    div button{
+      padding: 1.2rem 3rem;
+      color: #fff;
+      border: none;
+      border-radius: 1rem;
+      background-color: rgb(26, 26, 26);
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      transition: all .2s;
+      cursor: pointer;
+      outline: none;
+    }
+    div button:hover{
+      background-color: rgb(10, 10, 10);
+      
+    }
+  </style>
+<script defer src="./js/canvas.bundle.js"></script></head>
+<body>
+  <canvas></canvas>
+</body>
+</html>
