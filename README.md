@@ -6,7 +6,7 @@ Pop bubbles with your mouse
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/JstFlip/Bubble-Collision.git
+   git clone https://github.com/JstFlip/Bubble-Popper-Game.git
    ```
 2. Install NPM packages
    ```sh
